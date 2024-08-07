@@ -1,0 +1,18 @@
+# ninja log v6
+17	645	7447626332755705	Book_autogen/timestamp	1e4a75ed20a094a5
+17	645	7447626332755705	Book_autogen/mocs_compilation.cpp	1e4a75ed20a094a5
+17	645	7447626332755705	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	1e4a75ed20a094a5
+17	645	7447626332755705	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	1e4a75ed20a094a5
+654	2330	7447626333481673	CMakeFiles/Book.dir/mainwindow.cpp.obj	7ef105c23f126f7d
+650	2331	7447626333461029	CMakeFiles/Book.dir/Book_autogen/mocs_compilation.cpp.obj	5a0dbe898421da49
+652	2424	7447626333481673	CMakeFiles/Book.dir/main.cpp.obj	c7358573c023c751
+24	141	7447634314773094	Book_autogen/timestamp	1e4a75ed20a094a5
+24	141	7447634314773094	Book_autogen/mocs_compilation.cpp	1e4a75ed20a094a5
+24	141	7447634314773094	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	1e4a75ed20a094a5
+24	141	7447634314773094	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	1e4a75ed20a094a5
+142	1799	7447634315970903	CMakeFiles/Book.dir/Book.cpp.obj	a9bd7b96f017d70f
+1800	2060	7447634332552166	Book.exe	4d872ff75a546b09
+22	134	7447635383284748	Book_autogen/timestamp	1e4a75ed20a094a5
+22	134	7447635383284748	Book_autogen/mocs_compilation.cpp	1e4a75ed20a094a5
+22	134	7447635383284748	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	1e4a75ed20a094a5
+22	134	7447635383284748	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	1e4a75ed20a094a5
