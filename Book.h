@@ -1,11 +1,17 @@
 #ifndef BOOK_H
 #define BOOK_H
+
 #include <QString>
 #include <QDate>
 #include <QWidget>
 #include <QVBoxLayout>
 #include <QFormLayout>
 #include <QHBoxLayout>
+#include <QDebug>
+#include <QFormLayout>
+#include <QMessageBox>
+#include <QLineEdit>
+#include <QDateEdit>
 
 class Book {
 public:
@@ -20,17 +26,18 @@ public:
     QString getAuthor() const;
     QString getIsbn() const;
     QDate getPublicationDate() const;
-    void obtainBookInfo();
+    QFormLayout *obtainBookInfo();
     void saveBook(Book b);
 private:
     QString title;
     QString author;
     QString isbn;
     QDate publicationhDate;
-
-    QWidget *centralWidget = new QWidget();
-    QFormLayout *formLayout = new QFormLayout();
-    QHBoxLayout *buttonLayout = new QHBoxLayout();
+    QFormLayout *form = new QFormLayout;
+    QLineEdit titleIn;
+    QLineEdit authorIn;
+    QLineEdit isbnIn;
+    QDateEdit dateIn;
 };
 
 #endif // BOOK_H

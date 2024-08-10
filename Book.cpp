@@ -43,34 +43,12 @@ QDate Book::getPublicationDate() const {
     return publicationhDate;
 }
 
-void Book::obtainBookInfo() {
-    /*
-    Dismissible pop up
-    Back, Next (and save on last)
-    title, author, isbn, publiicationDate
-    */
-
-    QLineEdit titleInfo;
-    titleInfo.clear();
-    formLayout->addRow("Title:", &titleInfo);
-    QLineEdit authorInfo;
-    authorInfo.clear();
-    formLayout->addRow("Author:", &authorInfo);
-    QLineEdit isbnInfo;
-    isbnInfo.clear();
-    formLayout->addRow("ISBN:", &isbnInfo);
-    QDateEdit dateInfo;
-    dateInfo.clear();
-    formLayout->addRow("Publication date:", &dateInfo);
-
-    QPushButton cancelBtn;
-    cancelBtn.setText("cancel");
-    buttonLayout->addWidget(&cancelBtn);
-    QPushButton saveBtn;
-    saveBtn.setText("save");
-    buttonLayout->addWidget(&saveBtn);
-
-    formLayout->addRow(buttonLayout);
+QFormLayout* Book::obtainBookInfo() {
+    form->addRow("Title", &titleIn);
+    form->addRow("Author", &authorIn);
+    form->addRow("ISBN", &isbnIn);
+    form->addRow("Publish date", &dateIn);
+    return form;
 }
 
 void Book::saveBook(Book b) {
