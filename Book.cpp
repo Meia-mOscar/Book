@@ -5,15 +5,17 @@
 
 Book::Book(){}
 
-Book::Book(QString t, QString a, QString i, QDate p) : title(t), author(a), isbn(i), publicationhDate(p) {}
+Book::Book(QString t, QStringList a, QString i, QDate p) : title(t), authors(a), isbn(i), publicationhDate(p) {}
 
 void Book::setTitle(QString t) {
     title = t;
     return;
 }
 
-void Book::setAuthor(QString a) {
-    author = a;
+void Book::setAuthors(QStringList a) {
+    for(int i=0; i<a.length(); i++) {
+        authors.append(a[i]);
+    }
     return;
 }
 
@@ -31,8 +33,8 @@ QString Book::getTitle() const {
     return title;
 }
 
-QString Book::getAuthor() const {
-    return author;
+QStringList Book::getAuthors() const {
+    return authors;
 }
 
 QString Book::getIsbn() const {
@@ -43,14 +45,39 @@ QDate Book::getPublicationDate() const {
     return publicationhDate;
 }
 
-QFormLayout* Book::obtainBookInfo() {
-    form->addRow("Title", &titleIn);
-    form->addRow("Author", &authorIn);
-    form->addRow("ISBN", &isbnIn);
-    form->addRow("Publish date", &dateIn);
-    return form;
+void Book::obtainBookInfo() {
+    QTextStream out(stdout);
+    QTextStream in(stdin);
+
+    out << "Enter Book's Title:" << Qt::endl;
+    out.flush();
+    QString titleIn = in.readLine();
+    out << "in: " << titleIn;
+    this->setTitle(titleIn);
+
+    out << "Enter Author(s) (comma separated):\n";
+    QString authorsIn = in.readLine();
+    QStringList authorsListIn = authorsIn.split(',').toList();
+    this->setAuthors(authorsListIn);
+
+    out << "Enter ISBN:\n";
+    QString isbnIn = in.readLine();
+    this->setIsbn(isbnIn);
+
+    out << "Enter publication date (Date format: 'dd/MM/yyyy): ";
+    QString dateIn = in.readLine();
+    this->setPublicationDate(QDate::fromString(dateIn, "dd/MM/yyy"));
 }
 
 void Book::saveBook(Book b) {
 
+}
+
+void Book::setContent(QString c) {
+    content = c;
+    return;
+}
+
+QString Book::getContent() const {
+    return content;
 }

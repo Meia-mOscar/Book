@@ -2,42 +2,34 @@
 #define BOOK_H
 
 #include <QString>
+#include <QStringList>
 #include <QDate>
 #include <QWidget>
-#include <QVBoxLayout>
-#include <QFormLayout>
-#include <QHBoxLayout>
-#include <QDebug>
-#include <QFormLayout>
-#include <QMessageBox>
-#include <QLineEdit>
-#include <QDateEdit>
+#include <QTextStream>
 
 class Book {
 public:
     Book();
-    Book(QString t, QString a, QString i, QDate p);
+    Book(QString t, QStringList a, QString i, QDate p);
     ~Book();
     void setTitle(QString t);
-    void setAuthor(QString a);
+    void setAuthors(QStringList a);
     void setIsbn(QString i);
     void setPublicationDate(QDate p);
+    void setContent(QString c);
     QString getTitle() const;
-    QString getAuthor() const;
+    QStringList getAuthors() const;
     QString getIsbn() const;
     QDate getPublicationDate() const;
-    QFormLayout *obtainBookInfo();
+    QString getContent() const;
+    void obtainBookInfo();
     void saveBook(Book b);
 private:
     QString title;
-    QString author;
+    QStringList authors;
     QString isbn;
     QDate publicationhDate;
-    QFormLayout *form = new QFormLayout;
-    QLineEdit titleIn;
-    QLineEdit authorIn;
-    QLineEdit isbnIn;
-    QDateEdit dateIn;
+    QString content;
 };
 
 #endif // BOOK_H

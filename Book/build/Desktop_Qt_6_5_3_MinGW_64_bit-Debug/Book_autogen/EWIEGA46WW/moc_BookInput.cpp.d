@@ -1,6 +1,11 @@
 C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/EWIEGA46WW/moc_BookInput.cpp: C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/BookInput.h \
   C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/moc_predefs.h \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/QDate \
   C:/Qt/6.5.3/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/QList \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/QString \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/QStringList \
+  C:/Qt/6.5.3/mingw_64/include/QtCore/QTextStream \
   C:/Qt/6.5.3/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qalgorithms.h \
@@ -120,6 +125,7 @@ C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book/buil
   C:/Qt/6.5.3/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.5.3/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.5.3/mingw_64/include/QtGui/QAction \
+  C:/Qt/6.5.3/mingw_64/include/QtGui/QTextCursor \
   C:/Qt/6.5.3/mingw_64/include/QtGui/QTextDocument \
   C:/Qt/6.5.3/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.5.3/mingw_64/include/QtGui/qbitmap.h \
@@ -164,6 +170,7 @@ C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book/buil
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/QPushButton \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/QTextEdit \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/QVBoxLayout \
+  C:/Qt/6.5.3/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
   C:/Qt/6.5.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
@@ -415,4 +422,5 @@ C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book/buil
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book.h
