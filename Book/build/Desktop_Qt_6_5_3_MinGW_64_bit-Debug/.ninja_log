@@ -1,41 +1,96 @@
 # ninja log v6
+26	167	7456027808965583	Book_autogen/timestamp	5505c8151a3db389
 558	2563	7449927585843238	CMakeFiles/Book.dir/mainwindow.cpp.obj	76762160254313fa
-14	147	7450935901150690	Book_autogen/timestamp	5505c8151a3db389
-148	2225	7450935902483636	CMakeFiles/Book.dir/BookInput.cpp.obj	674533e7e321160c
-751	2655	7450892956741987	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
-14	147	7450935901150690	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-14	147	7450935901150690	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
-14	147	7450935901150690	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-631	2593	7450913501076109	CMakeFiles/Book.dir/Book_autogen/mocs_compilation.cpp.obj	5a0dbe898421da49
-634	2606	7450913501106102	CMakeFiles/Book.dir/main.cpp.obj	116976744a174dec
-2226	2457	7450935923269264	Book.exe	dd9909e7423eec94
-27	145	7450936602188677	Book_autogen/timestamp	5505c8151a3db389
-27	145	7450936602188677	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-27	145	7450936602188677	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
-27	145	7450936602188677	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-146	2217	7450936603414175	CMakeFiles/Book.dir/BookInput.cpp.obj	674533e7e321160c
-2217	2447	7450936624136871	Book.exe	dd9909e7423eec94
-26	153	7450938143515836	Book_autogen/timestamp	5505c8151a3db389
-26	153	7450938143515836	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-26	153	7450938143515836	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
-26	153	7450938143515836	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-154	2264	7450938144872374	CMakeFiles/Book.dir/BookInput.cpp.obj	674533e7e321160c
-2264	2508	7450938165976067	Book.exe	dd9909e7423eec94
-25	158	7450940141109254	Book_autogen/timestamp	5505c8151a3db389
-25	158	7450940141109254	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-25	158	7450940141109254	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
-25	158	7450940141109254	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-159	2302	7450940142520416	CMakeFiles/Book.dir/BookInput.cpp.obj	674533e7e321160c
-2302	2537	7450940163957959	Book.exe	dd9909e7423eec94
-24	150	7450943130217489	Book_autogen/timestamp	5505c8151a3db389
-24	150	7450943130217489	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-24	150	7450943130217489	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
-24	150	7450943130217489	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-150	2269	7450943131502089	CMakeFiles/Book.dir/BookInput.cpp.obj	674533e7e321160c
-2269	2499	7450943152695003	Book.exe	dd9909e7423eec94
-24	147	7450944296561151	Book_autogen/timestamp	5505c8151a3db389
-24	147	7450944296561151	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-24	147	7450944296561151	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
-24	147	7450944296561151	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
-148	2321	7450944297857600	CMakeFiles/Book.dir/BookInput.cpp.obj	674533e7e321160c
-2321	2555	7450944319598392	Book.exe	dd9909e7423eec94
+26	167	7456027808965583	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+168	2087	7456027810483507	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+144	2188	7456012831624410	CMakeFiles/Book.dir/BookInput.cpp.obj	674533e7e321160c
+26	167	7456027808965583	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+26	167	7456027808965583	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+729	3301	7456009930400135	CMakeFiles/Book.dir/Book_autogen/mocs_compilation.cpp.obj	5a0dbe898421da49
+733	3280	7456009930421073	CMakeFiles/Book.dir/main.cpp.obj	116976744a174dec
+2087	2318	7456027829679785	Book.exe	583e2aac03eeacaa
+739	3260	7456009930421073	CMakeFiles/Book.dir/bookwriter.cpp.obj	ca862722e4f71622
+20	157	7456028905940688	Book_autogen/timestamp	5505c8151a3db389
+20	157	7456028905940688	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+20	157	7456028905940688	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+20	157	7456028905940688	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+158	2068	7456028907348190	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2068	2302	7456028926455486	Book.exe	583e2aac03eeacaa
+26	153	7456029655365037	Book_autogen/timestamp	5505c8151a3db389
+26	153	7456029655365037	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+26	153	7456029655365037	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+26	153	7456029655365037	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+154	2039	7456029656722234	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2039	2267	7456029675578499	Book.exe	583e2aac03eeacaa
+15	151	7456030309978179	Book_autogen/timestamp	5505c8151a3db389
+15	151	7456030309978179	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+15	151	7456030309978179	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+15	151	7456030309978179	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+152	2054	7456030311477282	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2054	2283	7456030330504812	Book.exe	583e2aac03eeacaa
+15	152	7456033241461815	Book_autogen/timestamp	5505c8151a3db389
+15	152	7456033241461815	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+15	152	7456033241461815	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+15	152	7456033241461815	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+153	2073	7456033242843638	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2073	2310	7456033262047076	Book.exe	583e2aac03eeacaa
+25	155	7456035117347496	Book_autogen/timestamp	5505c8151a3db389
+25	155	7456035117347496	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+25	155	7456035117347496	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+25	155	7456035117347496	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+156	2079	7456035118738355	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2079	2310	7456035137979859	Book.exe	583e2aac03eeacaa
+25	161	7456038312177806	Book_autogen/timestamp	5505c8151a3db389
+25	161	7456038312177806	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+25	161	7456038312177806	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+25	161	7456038312177806	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+162	2046	7456038313615460	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2046	2276	7456038332466179	Book.exe	583e2aac03eeacaa
+25	156	7456039096157808	Book_autogen/timestamp	5505c8151a3db389
+25	156	7456039096157808	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+25	156	7456039096157808	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+25	156	7456039096157808	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+157	2091	7456039097550154	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2091	2338	7456039116897965	Book.exe	583e2aac03eeacaa
+15	151	7456039783712081	Book_autogen/timestamp	5505c8151a3db389
+15	151	7456039783712081	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+15	151	7456039783712081	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+15	151	7456039783712081	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+152	2053	7456039785181464	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2053	2287	7456039804199032	Book.exe	583e2aac03eeacaa
+15	152	7456040231351244	Book_autogen/timestamp	5505c8151a3db389
+15	152	7456040231351244	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+15	152	7456040231351244	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+15	152	7456040231351244	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+152	2090	7456040232864071	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2091	2322	7456040252251588	Book.exe	583e2aac03eeacaa
+14	159	7456042669958564	Book_autogen/timestamp	5505c8151a3db389
+14	159	7456042669958564	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+14	159	7456042669958564	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+14	159	7456042669958564	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+160	2076	7456042671539832	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+2076	2310	7456042690704189	Book.exe	583e2aac03eeacaa
+23	147	7456042980570766	Book_autogen/timestamp	5505c8151a3db389
+23	147	7456042980570766	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+23	147	7456042980570766	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+23	147	7456042980570766	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+148	1997	7456042981851655	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+1997	2226	7456043000346848	Book.exe	583e2aac03eeacaa
+24	144	7456043868033334	Book_autogen/timestamp	5505c8151a3db389
+24	144	7456043868033334	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+24	144	7456043868033334	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+24	144	7456043868033334	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+145	1970	7456043869311009	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+1970	2199	7456043887570192	Book.exe	583e2aac03eeacaa
+14	138	7456045199636905	Book_autogen/timestamp	5505c8151a3db389
+14	138	7456045199636905	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+14	138	7456045199636905	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+14	138	7456045199636905	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+139	1963	7456045200887866	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+1963	2196	7456045219136544	Book.exe	583e2aac03eeacaa
+25	148	7456045426564411	Book_autogen/timestamp	5505c8151a3db389
+25	148	7456045426564411	Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+25	148	7456045426564411	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/timestamp	5505c8151a3db389
+25	148	7456045426564411	C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/Book/build/Desktop_Qt_6_5_3_MinGW_64_bit-Debug/Book_autogen/mocs_compilation.cpp	5505c8151a3db389
+149	1992	7456045427802236	CMakeFiles/Book.dir/Book.cpp.obj	c53ec65ef5d3503c
+1992	2218	7456045446232632	Book.exe	583e2aac03eeacaa

@@ -298,6 +298,12 @@
 			"MU",
 			"EWIEGA46WW/moc_BookInput.cpp",
 			null
+		],
+		[
+			"C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/bookwriter.h",
+			"MU",
+			"EWIEGA46WW/moc_bookwriter.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -377,6 +383,11 @@
 		],
 		[
 			"C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/BookInput.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/oscar/Documents/COS3711 AdvancedProgramming/Assignments/Book/bookwriter.cpp",
 			"MU",
 			null
 		],

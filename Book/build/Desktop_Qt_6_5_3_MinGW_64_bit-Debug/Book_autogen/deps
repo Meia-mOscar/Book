@@ -626,5 +626,7 @@ Book_autogen/timestamp: \
 	C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/BookInput.cpp \
 	C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/BookInput.h \
 	C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/CMakeLists.txt \
+	C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/bookwriter.cpp \
+	C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/bookwriter.h \
 	C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/main.cpp \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

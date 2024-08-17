@@ -423,4 +423,5 @@ C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book/buil
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book.h
+  C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/Book.h \
+  C:/Users/oscar/Documents/COS3711\ AdvancedProgramming/Assignments/Book/bookwriter.h

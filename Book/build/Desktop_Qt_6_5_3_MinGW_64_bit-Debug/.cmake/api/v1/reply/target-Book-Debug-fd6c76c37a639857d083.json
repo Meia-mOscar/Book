@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 65,
+				"line" : 68,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 48,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
@@ -364,7 +364,7 @@
 			[
 				0,
 				1,
-				2,
+				3,
 				5,
 				7
 			]
@@ -484,7 +484,7 @@
 			[
 				0,
 				1,
-				2,
+				3,
 				5,
 				7
 			]
@@ -493,7 +493,7 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3,
+				2,
 				4,
 				6
 			]
@@ -530,17 +530,6 @@
 		},
 		{
 			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "mainwindow.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
-			"path" : "mainwindow.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 4,
 			"path" : "Book.h",
 			"sourceGroupIndex" : 1
 		},
@@ -559,6 +548,17 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "BookInput.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "bookwriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "bookwriter.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
