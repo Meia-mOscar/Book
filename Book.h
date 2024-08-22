@@ -7,7 +7,19 @@
 #include <QWidget>
 #include <QTextStream>
 
-class Book {
+class Book : public QObject {
+    Q_OBJECT
+    /*Add notify, slot mechanism
+     * ALso, repeat this for all public interfacing functions
+     * Move what functions can be to private, i.e. those only accessed in the class itself
+     *
+*/
+    Q_PROPERTY(QString binding READ getBinding)
+    Q_PROPERTY(QString title READ getTitile WRITE setTitle)
+    Q_PROPERTY(QStringList authors READ getAuthors WRITE setAuthors)
+    Q_PROPERTY(QString isbn READ getIsbn WRITE setIsbn)
+    Q_PROPERTY(QDate publicationDate READ getPublicationDate WRITE setPublicationDate)
+    Q_PROPERTY(QString content READ getContent WRITE setContent)
 public:
     Book();
     Book(QString t, QStringList a, QString i, QDate p);
@@ -17,7 +29,7 @@ public:
     QString getIsbn() const;
     QDate getPublicationDate() const;
     QString getContent() const;
-    QString getBinding();
+    QString getBinding() const;
     void setTitle(QString t);
     void setAuthors(QStringList a);
     void setIsbn(QString i);
@@ -36,9 +48,8 @@ private:
     QString title;
     QStringList authors;
     QString isbn;
-    QDate publicationhDate;
+    QDate publicationDate;
     QString content;
-
     //The following vars are used in reading from & writing to files
     QString titleStartMarker;
     QString authorStartMarker;
@@ -72,3 +83,9 @@ private:
 };
 
 #endif // BOOK_H
+
+/*
+ * setBookAttributes()
+ * write()
+ * getBinding()
+*/

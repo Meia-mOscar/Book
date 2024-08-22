@@ -39,7 +39,7 @@ Book::Book(){
     this->setBookAttributes();
 }
 
-Book::Book(QString t, QStringList a, QString i, QDate p) : title(t), authors(a), isbn(i), publicationhDate(p) {
+Book::Book(QString t, QStringList a, QString i, QDate p) : title(t), authors(a), isbn(i), publicationDate(p) {
     titleStartMarker = "<title>";
     authorStartMarker = "<author>";
     isbnStartMarker = "<isbn>";
@@ -75,6 +75,10 @@ Book::Book(QString t, QStringList a, QString i, QDate p) : title(t), authors(a),
     this->setBookAttributes();
 }
 
+Book::~Book() {
+
+}
+
 void Book::setTitle(QString t) {
     title = t;
     return;
@@ -94,7 +98,7 @@ void Book::setIsbn(QString i) {
 }
 
 void Book::setPublicationDate(QDate p) {
-    publicationhDate = p;
+    publicationDate = p;
     return;
 }
 
@@ -111,7 +115,7 @@ QString Book::getIsbn() const {
 }
 
 QDate Book::getPublicationDate() const {
-    return publicationhDate;
+    return publicationDate;
 }
 
 void Book::obtainBookInfo() {
@@ -213,7 +217,7 @@ void Book::read(QString *txt){
     }
 }
 
-QString Book::getBinding() {
+QString Book::getBinding() const {
     return binding;
 }
 
