@@ -142,8 +142,8 @@ void Book::obtainBookInfo() {
     this->setPublicationDate(QDate::fromString(dateIn, "dd/MM/yyy"));
 }
 
-void Book::saveBook(Book b) {
-
+void Book::saveBook(Book b) { /*Don't change method params*/
+    return;
 }
 
 void Book::setContent(QString c) {
@@ -224,6 +224,7 @@ QString Book::getBinding() const {
 void Book::write() {
     //refresh book
     binding.clear();
+    this->setBookAttributes();
     for(int i=0; i<bookAttributes.length(); i++) {
         binding.append(startMarkers[i]);
         binding.append(bookAttributes[i]);

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-06f593564080ba4d8002.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Book",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Book::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Book-Debug-799cfe4bd78c77d2a588.json",
+					"name" : "Book",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Book_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Book_autogen-Debug-9517d9481ed5fa0c8d63.json",
+					"name" : "Book_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Book_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Book_autogen_timestamp_deps-Debug-4635b5e0bbf2e1d2d642.json",
+					"name" : "Book_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug",
+		"source" : "C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

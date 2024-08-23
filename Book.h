@@ -11,11 +11,13 @@ class Book : public QObject {
     Q_OBJECT
     /*Add notify, slot mechanism
      * ALso, repeat this for all public interfacing functions
-     * Move what functions can be to private, i.e. those only accessed in the class itself
-     *
+     * Move what functions can be to private, i.e. those only accessed in the class itself\
+     * Both setBookAttributes & write can be accessed as follows:
+     *  QMetaObject::invokeMethod(&book, "write");
+     *  QMetaObject::invokeMethod(&book, "setBookAttributed");
 */
-    Q_PROPERTY(QString binding READ getBinding)
-    Q_PROPERTY(QString title READ getTitile WRITE setTitle)
+    Q_PROPERTY(QString binding READ getBinding CONSTANT)
+    Q_PROPERTY(QString title READ getTitle WRITE setTitle)
     Q_PROPERTY(QStringList authors READ getAuthors WRITE setAuthors)
     Q_PROPERTY(QString isbn READ getIsbn WRITE setIsbn)
     Q_PROPERTY(QDate publicationDate READ getPublicationDate WRITE setPublicationDate)
@@ -35,16 +37,17 @@ public:
     void setIsbn(QString i);
     void setPublicationDate(QDate p);
     void setContent(QString c);
-
-    void obtainBookInfo();
-    //I suspect the evnt loop interferes with the std functioning of console in/out...
-    void saveBook(Book b);
-
     void read(QString *txt);
-    void write();
+    void obtainBookInfo();
     void setBookAttributes();
-    void refreshBook();
+
+    //Accessing using QMetaObject is not yet working.
+    Q_INVOKABLE void write();
+
 private:
+    //I suspect the evnt loop interferes with the std functioning of console in/out...
+    void saveBook(Book b); //Make it 'this'?
+    void refreshBook();
     QString title;
     QStringList authors;
     QString isbn;
@@ -83,9 +86,3 @@ private:
 };
 
 #endif // BOOK_H
-
-/*
- * setBookAttributes()
- * write()
- * getBinding()
-*/

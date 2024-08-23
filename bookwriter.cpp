@@ -19,8 +19,9 @@ QString BookWriter::write(Book *b) {
         qDebug() << "Could not open file";
     } else {
         QTextStream stream(&file);
-        b->setBookAttributes();
-        b->write();
+        //b->setBookAttributes(); /*I've opted to move this to within the write function.*/
+        QMetaObject::invokeMethod(b, "write");
+        //b->write();
         stream << variant.toString();
         //stream << b->getBinding();
         file.close();
