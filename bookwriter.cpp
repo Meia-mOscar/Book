@@ -9,9 +9,14 @@ BookWriter::BookWriter() {
 QString BookWriter::write(Book *b) {
 
     const QMetaObject *mObject = b->metaObject();
+    //Access property
     int index = mObject->indexOfProperty("binding");
+    qDebug() << "indexOfProperty 'binding': " + QString::number(index);
     QMetaProperty mProperty = mObject->property(index);
+    QMetaObject::invokeMethod(b, "write"); //sets the binding
+    //b->write();
     QVariant variant = mProperty.read(b);
+    qDebug() << variant.toString();
 
     fileName = QFileDialog::getOpenFileName(&widget,("Open file"),"",("(*.xml);(*.txt)"));
     QFile file(fileName);
@@ -19,9 +24,6 @@ QString BookWriter::write(Book *b) {
         qDebug() << "Could not open file";
     } else {
         QTextStream stream(&file);
-        //b->setBookAttributes(); /*I've opted to move this to within the write function.*/
-        QMetaObject::invokeMethod(b, "write");
-        //b->write();
         stream << variant.toString();
         //stream << b->getBinding();
         file.close();

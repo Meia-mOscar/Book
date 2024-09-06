@@ -65,6 +65,7 @@ void BookInput::openClicked() {
 }
 
 void BookInput::saveClicked() {
+    this->refreshBook();
     writer->write(book);
 }
 
@@ -78,9 +79,9 @@ void BookInput::consoleClicked() {
 
 void BookInput::read(QTextEdit *e) {
     QString txt = e->toPlainText();
-    qDebug() << "read txt";
+    //qDebug() << "read txt";
     book->read(&txt);
-    qDebug() << "refresh UI";
+    //qDebug() << "refresh UI";
     this->refreshUi();
 }
 

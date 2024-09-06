@@ -199,9 +199,9 @@ void Book::read(QString *txt){
 
     qDebug() << startMarkers.length();
     for(int i=0; i<startMarkers.length(); i++) {
-        qDebug() << "count: " << i;
+        /*qDebug() << "count: " << i;
         qDebug() << "marker: " << startMarkers.at(i);
-        qDebug() << "attribute: " << bookAttributes.at(i);
+        qDebug() << "attribute: " << bookAttributes.at(i);*/
         if(startMarkers[i] == titleStartMarker) {
             this->setTitle(bookAttributes[i]);
         } else if(startMarkers[i] == authorStartMarker) {
@@ -222,7 +222,6 @@ QString Book::getBinding() const {
 }
 
 void Book::write() {
-    //refresh book
     binding.clear();
     this->setBookAttributes();
     for(int i=0; i<bookAttributes.length(); i++) {
@@ -234,11 +233,12 @@ void Book::write() {
 
 void Book::setBookAttributes() {
     bookAttributes.clear();
-    qDebug() << bookAttributes.length();
-    qDebug() << startMarkers.length();
+    qDebug() << "Book atts l: " + QString::number(bookAttributes.length());
+    qDebug() << "Start markers l: " + QString::number(startMarkers.length());
     for(int i=0; i<startMarkers.length(); i++) {
-        qDebug() << i;
+        qDebug() << "Iter: " + QString::number(i);
         if(startMarkers[i] == titleStartMarker) {
+            qDebug() << this->getTitle();
             bookAttributes.append(this->getTitle());
         } else if(startMarkers[i] == authorStartMarker) {
             QString a = "";
@@ -249,11 +249,15 @@ void Book::setBookAttributes() {
                 }
             }
             bookAttributes.append(a);
+            qDebug() << a;
         } else if(startMarkers[i] == dateStartMarker) {
+            qDebug() << this->getPublicationDate().toString("dd,MM,yyyy");
             bookAttributes.append(this->getPublicationDate().toString("dd,MM,yyyy"));
         } else if(startMarkers[i] == isbnStartMarker) {
+            qDebug() << this->getIsbn();
             bookAttributes.append(this->getIsbn());
         } else if(startMarkers[i] == contentStartMarker) {
+            qDebug() << this->getContent();
             bookAttributes.append(this->getContent());
         }
     }

@@ -9,7 +9,7 @@
 
 class Book : public QObject {
     Q_OBJECT
-    /*Add notify, slot mechanism
+    /* Add notify, slot mechanism
      * ALso, repeat this for all public interfacing functions
      * Move what functions can be to private, i.e. those only accessed in the class itself\
      * Both setBookAttributes & write can be accessed as follows:
@@ -42,7 +42,8 @@ public:
     void setBookAttributes();
 
     //Accessing using QMetaObject is not yet working.
-    Q_INVOKABLE void write();
+public slots:
+    void write();
 
 private:
     //I suspect the evnt loop interferes with the std functioning of console in/out...

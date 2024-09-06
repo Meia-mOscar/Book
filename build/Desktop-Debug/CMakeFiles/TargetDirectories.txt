@@ -1,9 +1,0 @@
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/Book.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/list_install_components.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/install.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/install/local.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/install/strip.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/Book_autogen_timestamp_deps.dir
-C:/Users/TTB Admin/Documents/Oscar/UNISA/COS3711/Book/Book/build/Desktop-Debug/CMakeFiles/Book_autogen.dir
